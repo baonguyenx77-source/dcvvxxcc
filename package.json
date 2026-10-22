@@ -1,0 +1,27 @@
+{
+  "name": "tai-xiu-server",
+  "version": "5.0.0",
+  "description": "API dự đoán Tài Xỉu v5 — Knowledge-based (học từ 4228 phiên mẫu)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "@fastify/cors": "^9.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "tai-xiu",
+    "dice",
+    "prediction",
+    "fastify"
+  ],
+  "author": "cskhgiabao",
+  "license": "MIT"
+}
